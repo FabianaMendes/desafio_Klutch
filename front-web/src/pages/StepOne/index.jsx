@@ -22,7 +22,6 @@ export default function StepOne({ onSubmit }) {
     function LoadComponent(event) {
         event.preventDefault();
         setContainer(<Tables desiredValue={desiredValue} onSubmit={onSubmit}/>);
-        console.log(desiredValue);
     }
 
     return (

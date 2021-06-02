@@ -27,5 +27,4 @@ export default class Home extends Component {
 
 function onSubmit(values){
     saveSolicitation(values);
-    console.log(values);
 }

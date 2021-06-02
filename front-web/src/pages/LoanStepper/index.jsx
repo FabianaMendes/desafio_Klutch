@@ -34,7 +34,6 @@ export default function LoanStepper({ onSubmit }) {
     function collectData(data){
         setData({...collectedData, ...data});
         next();
-        console.log(data);
     }
 
     function next(){
