@@ -1,0 +1,180 @@
+.step-six {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.step-six form {
+
+}
+
+.step-six form .table-selector {
+    position: absolute;
+    top: 111px;
+    right: 350px;
+    height: 97px;
+    width: 472px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 17px 28px;
+    background-color: var(--background);
+    border-radius: 5px;
+}
+.step-six form .table-selector label {
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: 700;
+    font-style: italic;
+    color: var(--primary);
+    width: 70px;
+}
+.step-six form .table-selector input {
+    height: 62px;
+    width: 296px;
+    padding: 14px;
+    font-size: 25px;
+    line-height: 33px;
+    font-weight: 700;
+    border: none;
+    color: var(--secondary);
+    outline: none;
+    border-radius: 5px;
+}
+.step-six form .table-selector input::placeholder {
+    height: 62px;
+    width: 296px;
+    padding: 14px;
+    font-size: 25px;
+    line-height: 33px;
+    font-weight: 700;
+    border: none;
+    color: var(--secondary);
+    outline: none;
+}
+.step-six form .body {
+    width: 1220px;
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.step-six form .body .input-block {
+    width: 600px;
+    height: 97px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px 0 20px;
+    background-color: var(--background);
+    border-radius: 5px;
+}
+.step-six form .body .input-block:nth-child(-n+2) {
+    background-color: #E8FFE3;
+}
+.step-six form .body .input-block label {
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: 700;
+    font-style: italic;
+    color: var(--primary);
+    height: 30px;
+}
+.step-six form .body .input-block input {
+    height: 62px;
+    width: 238px;
+    padding: 14px 31px;
+    font-size: 25px;
+    line-height: 33px;
+    font-weight: 700;
+    font-style: italic;
+    color: var(--secondary);
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+.step-six form .body .input-block input::placeholder {
+    height: 62px;
+    width: 238px;
+    padding: 14px 31px;
+    font-size: 25px;
+    line-height: 33px;
+    font-weight: 700;
+    font-style: italic;
+    color: var(--secondary);
+    border: none;
+    outline: none;
+}
+.step-six form .body p {
+    width: 100%;
+    font-size: 21px;
+    line-height: 28px;
+    font-weight: 500;
+    color: var(--primary);
+}
+.step-six form .body .buttons {
+    width: 100%;
+    height: 98px;
+    margin: 10px 0 68px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+.step-six form .body .buttons div {
+    width: 50%;
+    height: 100%;
+}
+.step-six form .body .buttons .type-button {
+    background-color: #ffffff;
+    color: var(--primary);
+    width: 50%;
+    height: 100%;
+    font-size: 39px;
+    line-height: 52px;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.step-six form .body .buttons .type-button:hover {
+    background-color: var(--primary);
+    color: #ffffff;
+}
+.step-six form .body .buttons .selected {
+    background-color: var(--primary);
+    color: #ffffff;
+    width: 50%;
+    height: 100%;
+    font-size: 39px;
+    line-height: 52px;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.step-six form .body .buttons .selected:hover {
+    background-color: var(--primary-hover);
+}
+.step-six form .body .buttons button {
+    width: 50%;
+}
+.step-six form .body .buttons button img {
+    margin-right: 23px;
+}
+
+
+
+.footer-table {
+    width: 1218px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 120px;
+    text-align: center;
+}

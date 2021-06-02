@@ -1,0 +1,83 @@
+.step3-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.step3-container label {
+    font-size: 33px;
+    line-height: 44px;
+    font-weight: 500;
+    height: 44px;
+    width: fit-content;
+    margin-bottom: 32px;
+    color: var(--primary);
+}
+.step3-container .search-cpf {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 55px;
+}
+.step3-container .input-block {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 61px;
+    width: 474px;
+}
+.step3-container .input-block button {
+    border-radius: 0 5px 5px 0;
+}
+.step3-container .input-block input {
+    height: 61px;
+    width: 100%;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    text-align: left;
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 500;
+    color: var(--font);
+    background-color: var(--background);
+    border-radius: 5px 0 0 5px;
+}
+.step3-container .result-container {
+    height: 355px;
+    width: 474px;
+    padding: 22px 40px 36px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    background-color: var(--background);
+    border-radius: 5px;
+}
+.step3-container .result-container h2 {
+    font-size: 33px;
+    line-height: 44px;
+    font-weight: 500;
+    color: var(--font);
+    height: 44px;
+    padding-bottom: 18px;
+}
+.step3-container .result-container h3 {
+    font-size: 33px;
+    line-height: 44px;
+    font-weight: 500;
+    color: var(--secondary);
+    height: 44px;
+    padding-bottom: 18px;
+}
+.step3-container .result-container h4 {
+    font-size: 33px;
+    line-height: 39px;
+    font-weight: 700;
+    color: var(--primary);
+    height: 44px;
+    padding-bottom: 30px;
+}

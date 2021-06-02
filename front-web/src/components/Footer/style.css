@@ -1,0 +1,28 @@
+
+.table-footer {
+    width: 100%;
+    height: 87px;
+    position: sticky;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primary);
+}
+.table-footer div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-right: 45px;
+    column-gap: 45px;
+    color: #ffffff;
+}
+.table-footer div h1 {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40px;
+    color: #ffffff;
+    height: 40px;
+}

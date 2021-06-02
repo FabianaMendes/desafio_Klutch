@@ -1,0 +1,58 @@
+.paymentMode-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.paymentMode-container h1 {
+    font-size: 33px;
+    line-height: 44px;
+    font-weight: 500;
+    height: 44px;
+    margin-bottom: 38px;
+    color: var(--primary);
+}
+.paymentMode-container button {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+.paymentMode-container button p {
+    font-size: 36px;
+}
+.paymentMode-container h2 {
+    margin: 30px 0;
+    font-size: 33px;
+    line-height: 44px;
+    font-weight: 500;
+    color: var(--font);
+    height: 44px;
+}
+.paymentMode-container .mode-inactive {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+.paymentMode-container .mode-inactive .inactiveButton {
+    background-color: var(--primary);
+    color: #ffffff;
+    height: 98px;
+    width: 390px;
+    opacity: 0.4;
+    font-size: 35px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+.paymentMode-container .mode-inactive p {
+    color: var(--font);
+    font-size: 25px;
+    line-height: 33px;
+    font-weight: 500;
+    margin-top: 5px;
+}

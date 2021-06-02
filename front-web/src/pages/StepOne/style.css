@@ -1,0 +1,196 @@
+.value-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 68px;
+}
+.value-container .value-field #min, .value-container .value-field #max {
+    display: none;
+}
+.value-container .value-field {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.value-container .value-field form {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.value-container .value-field form .input-block {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 30px;
+    box-sizing: border-box;
+}
+.value-container .value-field form .input-block label {
+    color: var(--primary);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 55px;
+    width: 280px;
+    height: 53px;
+    margin-bottom: 28px;
+}
+.value-container .value-field form .input-block input {
+    color: var(--font);
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 40px;
+    width: 473px;
+    height: 62px;
+    text-align: center;
+    padding: 15px;
+    border: none;
+    outline: none;
+    background-color: var(--background);
+    border-radius: 5px;
+}
+.value-container .value-field form .input-block input::placeholder {
+    color: var(--font);
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 40px;
+}
+.value-container .value-field .btn-ctn {
+    height: 62px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.step-two {
+    width: 100%;
+    height: fit-content;
+}
+.step-two form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.step-two form .tables-list {
+    width: 1292px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 700px;
+}
+.step-two form .tables-list .table-container {
+    width: 100%;
+    height: 745px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    border: 1px solid #e6e6e6;
+    border-radius: 5px;
+}
+.step-two form .tables-list .table-container .radio-container {
+    width: 74px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid #e6e6e6;
+    padding: 0 14px;
+}
+.step-two form .tables-list .table-container .radio-container .radio {
+    height: 33px;
+    width: 33px;
+    color: var(--background);
+    border: var(--background);
+    background-color: var(--background);
+}
+.table-content {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+.table-content h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 29px;
+    line-height: 38px;
+    font-weight: bold;
+    color: var(--primary);
+    padding: 7px 0 20px;
+    width: 100%;
+    background-color: var(--background);
+}
+.table-content table {
+    width: 100%;
+    height: 678px; /*678px*/
+    text-align: center;
+    color: var(--font);
+    border-collapse: collapse;
+}
+.table-content table thead {
+    width: 100%;
+    background-color: var(--background);
+    border-bottom: 1px solid #E6E6E6;
+}
+.table-content table tbody {
+    width: 100%;
+    height: 100%;
+}
+.table-content table tbody tr:hover{
+    background-color: rgba(239, 223, 75, 0.23);
+    cursor: pointer;
+}
+.table-content table tr {
+    height: 60px;
+    width: 100%;
+}
+.table-content table tr th {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 33px;
+}
+.table-content table tr td {
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 31px;
+    border: 1px solid #E6E6E6;
+}
+.step-two form .footer {
+    width: 100%;
+    height: 87px;
+    position: sticky;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primary);
+}
+.step-two form .footer div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-right: 45px;
+    column-gap: 45px;
+    color: #ffffff;
+}
+.step-two form .footer div h1 {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40px;
+    color: #ffffff;
+    height: 40px;
+}
+
+.selected{
+    background-color: rgba(239, 223, 75, 0.23);
+}
