@@ -14,7 +14,6 @@ export default function Tables({ onSubmit, desiredValue }) {
     const [comission, setComission] = useState("");
     const [comissionValue, setComissionValue] = useState("");
     const [totalLoan, setTotalLoan] = useState("");
-    const [isSelected, setSelected] = useState(false);
 
     const percentageComission = (0.005);
     
@@ -59,7 +58,7 @@ export default function Tables({ onSubmit, desiredValue }) {
                                         </tr>
                                     </thead>
                                     <tbody>
-                                        <tr className={isSelected ? "selected" : "" } 
+                                        <tr
                                             onClick={()=> { 
                                                 setInstallments(1);
                                                 setInstallmentId(1);
@@ -77,7 +76,7 @@ export default function Tables({ onSubmit, desiredValue }) {
                                             <td>{formatCurrency(((desiredValue/1)*1.01)*1)}</td>
                                             <td>{formatCurrency((((desiredValue/1)*1.01)*1)*percentageComission)}</td>
                                         </tr>
-                                        <tr className={isSelected ? "selected" : "" } 
+                                        <tr
                                             onClick={()=> { 
                                                 setInstallments(2);
                                                 setInstallmentId(2);
@@ -95,7 +94,7 @@ export default function Tables({ onSubmit, desiredValue }) {
                                             <td>{formatCurrency(((desiredValue/2)*1.02)*2)}</td>
                                             <td>{formatCurrency((((desiredValue/2)*1.02)*2)*percentageComission)}</td>
                                         </tr>
-                                        <tr className={isSelected ? "selected" : "" } 
+                                        <tr
                                             onClick={()=> { 
                                                 setInstallments(3);
                                                 setInstallmentId(3);
@@ -113,7 +112,7 @@ export default function Tables({ onSubmit, desiredValue }) {
                                             <td>{formatCurrency(((desiredValue/3)*1.03)*3)}</td>
                                             <td>{formatCurrency((((desiredValue/3)*1.03)*3)*percentageComission)}</td>
                                         </tr>
-                                        <tr className={isSelected ? "selected" : "" } 
+                                        <tr
                                             onClick={()=> { 
                                                 setInstallments(4);
                                                 setInstallmentId(4);
@@ -131,7 +130,7 @@ export default function Tables({ onSubmit, desiredValue }) {
                                             <td>{formatCurrency(((desiredValue/4)*1.04)*4)}</td>
                                             <td>{formatCurrency((((desiredValue/4)*1.04)*4)*percentageComission)}</td>
                                         </tr>
-                                        <tr className={isSelected ? "selected" : "" } 
+                                        <tr
                                             onClick={()=> { 
                                                 setInstallments(5);
                                                 setInstallmentId(5);
@@ -149,7 +148,7 @@ export default function Tables({ onSubmit, desiredValue }) {
                                             <td>{formatCurrency(((desiredValue/5)*1.05)*5)}</td>
                                             <td>{formatCurrency((((desiredValue/5)*1.05)*5)*percentageComission)}</td>
                                         </tr>
-                                        <tr className={isSelected ? "selected" : "" } 
+                                        <tr
                                             onClick={()=> { 
                                                 setInstallments(6);
                                                 setInstallmentId(6);
@@ -167,7 +166,7 @@ export default function Tables({ onSubmit, desiredValue }) {
                                             <td>{formatCurrency(((desiredValue/6)*1.06)*6)}</td>
                                             <td>{formatCurrency((((desiredValue/6)*1.06)*6)*percentageComission)}</td>
                                         </tr>
-                                        <tr className={isSelected ? "selected" : "" } 
+                                        <tr
                                             onClick={()=> { 
                                                 setInstallments(7);
                                                 setInstallmentId(7);
@@ -185,7 +184,7 @@ export default function Tables({ onSubmit, desiredValue }) {
                                             <td>{formatCurrency(((desiredValue/7)*1.07)*7)}</td>
                                             <td>{formatCurrency((((desiredValue/7)*1.07)*7)*percentageComission)}</td>
                                         </tr>
-                                        <tr className={isSelected ? "selected" : "" } 
+                                        <tr
                                             onClick={()=> { 
                                                 setInstallments(8);
                                                 setInstallmentId(8);
@@ -203,7 +202,7 @@ export default function Tables({ onSubmit, desiredValue }) {
                                             <td>{formatCurrency(((desiredValue/8)*1.08)*8)}</td>
                                             <td>{formatCurrency((((desiredValue/8)*1.08)*8)*percentageComission)}</td>
                                         </tr>
-                                        <tr className={isSelected ? "selected" : "" } 
+                                        <tr 
                                             onClick={()=> { 
                                                 setInstallments(9);
                                                 setInstallmentId(9);
@@ -221,7 +220,7 @@ export default function Tables({ onSubmit, desiredValue }) {
                                             <td>{formatCurrency(((desiredValue/9)*1.09)*9)}</td>
                                             <td>{formatCurrency((((desiredValue/9)*1.09)*9)*percentageComission)}</td>
                                         </tr>
-                                        <tr className={isSelected ? "selected" : "" } 
+                                        <tr
                                             onClick={()=> { 
                                                 setInstallments(10);
                                                 setInstallmentId(10);
@@ -270,7 +269,7 @@ export default function Tables({ onSubmit, desiredValue }) {
                                         </tr>
                                     </thead>
                                     <tbody>
-                                        <tr className={isSelected ? "selected" : "" } 
+                                        <tr
                                             onClick={()=> { 
                                                 setInstallments(1);
                                                 setInstallmentId(1);
@@ -288,7 +287,7 @@ export default function Tables({ onSubmit, desiredValue }) {
                                             <td>{formatCurrency(((desiredValue/1)*1.01)*1)}</td>
                                             <td>{formatCurrency((((desiredValue/1)*1.01)*1)*percentageComission)}</td>
                                         </tr>
-                                        <tr className={isSelected ? "selected" : "" } 
+                                        <tr
                                             onClick={()=> { 
                                                 setInstallments(2);
                                                 setInstallmentId(2);
@@ -306,7 +305,7 @@ export default function Tables({ onSubmit, desiredValue }) {
                                             <td>{formatCurrency(((desiredValue/2)*1.02)*2)}</td>
                                             <td>{formatCurrency((((desiredValue/2)*1.02)*2)*percentageComission)}</td>
                                         </tr>
-                                        <tr className={isSelected ? "selected" : "" } 
+                                        <tr
                                             onClick={()=> { 
                                                 setInstallments(3);
                                                 setInstallmentId(3);
@@ -324,7 +323,7 @@ export default function Tables({ onSubmit, desiredValue }) {
                                             <td>{formatCurrency(((desiredValue/3)*1.03)*3)}</td>
                                             <td>{formatCurrency((((desiredValue/3)*1.03)*3)*percentageComission)}</td>
                                         </tr>
-                                        <tr className={isSelected ? "selected" : "" } 
+                                        <tr
                                             onClick={()=> { 
                                                 setInstallments(4);
                                                 setInstallmentId(4);
@@ -342,7 +341,7 @@ export default function Tables({ onSubmit, desiredValue }) {
                                             <td>{formatCurrency(((desiredValue/4)*1.04)*4)}</td>
                                             <td>{formatCurrency((((desiredValue/4)*1.04)*4)*percentageComission)}</td>
                                         </tr>
-                                        <tr className={isSelected ? "selected" : "" } 
+                                        <tr
                                             onClick={()=> { 
                                                 setInstallments(5);
                                                 setInstallmentId(5);
@@ -360,7 +359,7 @@ export default function Tables({ onSubmit, desiredValue }) {
                                             <td>{formatCurrency(((desiredValue/5)*1.05)*5)}</td>
                                             <td>{formatCurrency((((desiredValue/5)*1.05)*5)*percentageComission)}</td>
                                         </tr>
-                                        <tr className={isSelected ? "selected" : "" } 
+                                        <tr
                                             onClick={()=> { 
                                                 setInstallments(6);
                                                 setInstallmentId(6);
@@ -378,7 +377,7 @@ export default function Tables({ onSubmit, desiredValue }) {
                                             <td>{formatCurrency(((desiredValue/6)*1.06)*6)}</td>
                                             <td>{formatCurrency((((desiredValue/6)*1.06)*6)*percentageComission)}</td>
                                         </tr>
-                                        <tr className={isSelected ? "selected" : "" } 
+                                        <tr
                                             onClick={()=> { 
                                                 setInstallments(7);
                                                 setInstallmentId(7);
@@ -396,7 +395,7 @@ export default function Tables({ onSubmit, desiredValue }) {
                                             <td>{formatCurrency(((desiredValue/7)*1.07)*7)}</td>
                                             <td>{formatCurrency((((desiredValue/7)*1.07)*7)*percentageComission)}</td>
                                         </tr>
-                                        <tr className={isSelected ? "selected" : "" } 
+                                        <tr
                                             onClick={()=> { 
                                                 setInstallments(8);
                                                 setInstallmentId(8);
@@ -414,7 +413,7 @@ export default function Tables({ onSubmit, desiredValue }) {
                                             <td>{formatCurrency(((desiredValue/8)*1.08)*8)}</td>
                                             <td>{formatCurrency((((desiredValue/8)*1.08)*8)*percentageComission)}</td>
                                         </tr>
-                                        <tr className={isSelected ? "selected" : "" } 
+                                        <tr
                                             onClick={()=> { 
                                                 setInstallments(9);
                                                 setInstallmentId(9);
@@ -432,7 +431,7 @@ export default function Tables({ onSubmit, desiredValue }) {
                                             <td>{formatCurrency(((desiredValue/9)*1.09)*9)}</td>
                                             <td>{formatCurrency((((desiredValue/9)*1.09)*9)*percentageComission)}</td>
                                         </tr>
-                                        <tr className={isSelected ? "selected" : "" } 
+                                        <tr
                                             onClick={()=> { 
                                                 setInstallments(10);
                                                 setInstallmentId(10);

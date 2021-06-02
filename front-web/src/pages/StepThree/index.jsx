@@ -3,7 +3,6 @@ import Navbar from '../../components/Navbar';
 import SendingValidations from '../../contexts/SendingValidations';
 import useErrors from '../../hooks/useErrors';
 import './style.css';
-import axios from 'axios';
 import { getClients } from '../../api';
 
 
@@ -13,7 +12,6 @@ export default function StepThree({ onSubmit }) {
     const [errors, validateInput, canSubmit] = useErrors(validations);
     const [cpf, setCpf] = useState("");
     const [divResponse, setDivResponse] = useState();
-    const [client, setClient] = useState({});
 
     useEffect(() => {
         getClients()
@@ -26,13 +24,6 @@ export default function StepThree({ onSubmit }) {
         })
     }, []);
         
-    function SearchClient({clients}){
-        return (
-            clients.map(client => (
-                <div>{client.cpf}</div>
-            ))
-        )
-    }
 
     function ResponseContainer(){
         return(
