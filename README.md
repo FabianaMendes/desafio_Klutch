@@ -13,36 +13,47 @@
 
 ## Description
 **Este foi um desafio Front-end proposto pela Klutch Tecnologia onde deveria ser criado um sistema web para solicitações de empréstimo**
-Tempo para desenvolvimento: 7 dias
+
+**Tempo para desenvolvimento: 7 dias**
+
 Os passos são:
-1- Inserir o valor desejado
-2- Selecionar a Tabela e a linha correspondente ao parcelamento escolhido
-3- Inserir CPF e buscar cliente no DB (se não estiver cadastrado não poderá prosseguir)
-4- Escolher forma de pagamento (Somente cartão de crédito no momento)
-5- Inserir os dados do cartão (número, validade e cvc) e fotos frente, verso e selfie com cartão
-6- Resumo das informações, escolha do tipo de Contrato (Manual ou Automático) e conclusão da solicitação
-7- Resumo da solicitação com botão para mostrar detalhamento
-8- Detalhes da solicitação com valor total, visualização das fotos enviadas, informações do cartão de crédito com valor das parcelas, informações do cliente com cpf, banco(agencia, tipo de conta, numero da conta), data da solicitação, etc.
+- Inserir o valor desejado
+- Selecionar a Tabela e a linha correspondente ao parcelamento escolhido
+- Inserir CPF e buscar cliente no DB (se não estiver cadastrado não poderá prosseguir)
+- Escolher forma de pagamento (Somente cartão de crédito no momento)
+- Inserir os dados do cartão (número, validade e cvc) e fotos frente, verso e selfie com cartão
+- Resumo das informações, escolha do tipo de Contrato (Manual ou Automático) e conclusão da solicitação
+- Resumo da solicitação com botão para mostrar detalhamento
+- Detalhes da solicitação com valor total, visualização das fotos enviadas, informações do cartão de crédito com valor das parcelas, informações do cliente com cpf, banco(agencia, tipo de conta, numero da conta), data da solicitação, etc.
+
 *Atenção: Projeto não responsivo!*
+
 **O design do projeto está configurado apenas para telas de 1920x1080px conforme projeto do AdobeXD apresentado. Ainda não foi feito CSS responsivo**
 
+
+
 **This was a Front-end challenge proposed by Klutch Technology where a web loan application system should be created**
-Time for development: 7 days
+
+**Time for development: 7 days**
+
 The steps are:
-1- Enter the desired value
-2- Select the Table and the line corresponding to the chosen installment payment
-3- Insert CPF and search for client in DB (if not registered, you cannot proceed)
-4- Choose payment method (Credit card only)
-5- Enter credit card details (number, validthru, cvc) and photos (front, back and selfie)
-6- Information summary, choose Contract Type (manual or Automatic) and request completion
-7- Request summary with button to show details
-8- Request details such as total loan, uploaded photos, credit card informations, installment value, customer informations and bank data, request date, etc.
+- Enter the desired value
+- Select the Table and the line corresponding to the chosen installment payment
+- Insert CPF and search for client in DB (if not registered, you cannot proceed)
+- Choose payment method (Credit card only)
+- Enter credit card details (number, validthru, cvc) and photos (front, back and selfie)
+- Information summary, choose Contract Type (manual or Automatic) and request completion
+- Request summary with button to show details
+- Request details such as total loan, uploaded photos, credit card informations, installment value, customer informations and bank data, request date, etc.
+
 *Attention: non-responsive Project!*
+
 **The project design is configured only to 1920x1080px screens as the featured AdobeXD project. Responsive CSS hasn't been done yet.**
 
 
 ## Status
  🚧  Desafio - Em construção - Não finalizado  🚧 
+
  🚧  Challenge - Under construction - Not finished  🚧 
 
 
