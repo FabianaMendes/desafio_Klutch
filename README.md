@@ -1,5 +1,14 @@
-<img align="center" alt="Sistema de Empréstimo" src="front-web/public/home.png">
 <h1 align="center">Desafio Klutch</h1>
+
+<img align="center" alt="Sistema de Empréstimo" src="front-web/public/home.png">
+
+
+*Atenção: Projeto não responsivo (ainda)!*
+
+**O design do projeto está configurado apenas para telas de 1920x1080px conforme projeto do AdobeXD apresentado. Ainda não foi feito CSS responsivo**
+
+Para acessar o app em produção [clique aqui!](https://desafio-klutch.netlify.app)
+
 
 <p align="center" >  
     <a href="#description">Description</a> • 
@@ -26,9 +35,8 @@ Os passos são:
 - Resumo da solicitação com botão para mostrar detalhamento
 - Detalhes da solicitação com valor total, visualização das fotos enviadas, informações do cartão de crédito com valor das parcelas, informações do cliente com cpf, banco(agencia, tipo de conta, numero da conta), data da solicitação, etc.
 
-*Atenção: Projeto não responsivo!*
+Deploy do front end foi feito no Netlify e backend no Heroku
 
-**O design do projeto está configurado apenas para telas de 1920x1080px conforme projeto do AdobeXD apresentado. Ainda não foi feito CSS responsivo**
 
 
 
