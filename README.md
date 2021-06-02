@@ -1,4 +1,4 @@
-<img align="center" alt="Sistema de Empréstimo" src="./public/home.png">
+<img align="center" alt="Sistema de Empréstimo" src="front-web/public/home.png">
 <h1 align="center">Desafio Klutch</h1>
 
 <p align="center" >  
