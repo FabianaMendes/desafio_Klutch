@@ -70,7 +70,7 @@ The steps are:
 
 ## How to run the app
 - Open cmd and clone the repository:
-``` $ git clone git@gitlab.com:.... ```
+``` $ git clone https://github.com/FabianaMendes/desafio_klutch.git ```
 - Access project folder in terminal/cmd: 
 ``` $ cd front-web ```
 - Install the dependencies:
